@@ -7,7 +7,3 @@ def uppercase(str):
         else:
             result += char
     print("{}".format(result))
-
-
-# Temporary test
-uppercase("Best School 98 Battery street")
