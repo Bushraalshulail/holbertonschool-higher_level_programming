@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This module def the BaseGeometry class with basic geometry operations"""
+"""This module defines the BaseGe class with basic geometry operations"""
 
 
 class BaseGeometry:
@@ -10,8 +10,7 @@ class BaseGeometry:
         raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
-        """
-        Validate that value is a positive integer.
+        """Validate that value is a positive integer.
 
         Args:
             name (str): The name of the parameter.
